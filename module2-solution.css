@@ -91,18 +91,18 @@ div {
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: auto;
+        clear: right;
 
 }
 
 /*simple responsive framework for menu */
 .row {
-    width: 90%;
-
+    width:90%;
 }
 
 /* full screen devices - desktop */
 @media (min-width: 992px) {
-    .col1 {
+    .fullscreen {
         float:left;
         width: 33.33%;
 }
